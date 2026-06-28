@@ -7,13 +7,13 @@ import Image from "next/image";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
-  const links = [
-    { name: "Home", href: "#" },
-    { name: "Services", href: "#services" },
-    { name: "Projects", href: "#projects" },
-    { name: "About", href: "#about" },
-    { name: "Contact", href: "#contact" },
-  ];
+const links = [
+  { name: "Home", href: "#" },
+  { name: "About", href: "#about" },
+  { name: "Services", href: "#services" },
+  { name: "Our Work", href: "#our-work" },
+  { name: "Contact", href: "#contact" },
+];
 
   return (
     <header className="fixed top-0 left-0 z-50 w-full border-b border-white/10 bg-black/70 backdrop-blur-lg">
@@ -54,13 +54,7 @@ export default function Navbar() {
           ))}
         </nav>
 
-        {/* CTA */}
-        <a
-          href="#contact"
-          className="hidden rounded-lg bg-red-600 px-6 py-3 font-semibold text-white transition hover:bg-red-700 md:block"
-        >
-          Free Estimate
-        </a>
+       
 
         {/* Mobile */}
         <button
