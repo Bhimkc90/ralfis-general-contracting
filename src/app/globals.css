@@ -37,3 +37,7 @@ img {
   background: var(--primary-red);
   color: var(--white);
 }
+
+html {
+  scroll-behavior: smooth;
+}
