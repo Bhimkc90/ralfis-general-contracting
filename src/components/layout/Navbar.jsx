@@ -8,11 +8,11 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
 const links = [
-  { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Our Work", href: "#our-work" },
-  { label: "Contact", href: "#contact" },
+  { name: "Home", href: "#home" },
+  { name: "About", href: "#about" },
+  { name: "Services", href: "#services" },
+  { name: "Portfolio", href: "#our-work" },
+  { name: "Contact", href: "#contact" },
 ];
 
   return (
@@ -44,11 +44,11 @@ const links = [
         <nav className="hidden items-center gap-10 md:flex">
           {links.map((link) => (
             <a
-                key={link.label}
+                key={link.name}
                 href={link.href}
                 className="transition hover:text-red-500"
             >
-                {link.label}
+                {link.name}
             </a>
             ))}
         </nav>
@@ -69,11 +69,11 @@ const links = [
         <div className="border-t border-white/10 bg-black md:hidden">
           {links.map((link) => (
             <a
-                key={link.label}
+                key={link.name}
                 href={link.href}
                 className="transition hover:text-red-500"
             >
-                {link.label}
+                {link.name}
             </a>
             ))}
 

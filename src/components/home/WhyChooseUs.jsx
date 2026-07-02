@@ -4,49 +4,68 @@ const reasons = [
   {
     icon: ShieldCheck,
     title: "Licensed & Insured",
-    text: "Professional service with the protection and peace of mind homeowners expect.",
+    text: "Professional service with the protection homeowners expect.",
   },
   {
     icon: Hammer,
-    title: "Quality Craftsmanship",
-    text: "Detailed work, clean finishes, and attention to every part of the project.",
+    title: "Craftsmanship First",
+    text: "Clean finishes, precise detail, and work done with pride.",
   },
   {
     icon: Clock,
-    title: "Reliable Service",
-    text: "Clear communication, dependable scheduling, and respect for your home.",
+    title: "Reliable Process",
+    text: "Clear communication and dependable scheduling from start to finish.",
   },
   {
     icon: MapPin,
-    title: "Serving Long Island",
-    text: "Local remodeling, renovation, landscaping, and exterior services.",
+    title: "Local Service",
+    text: "Serving homeowners across Long Island and nearby communities.",
   },
 ];
 
 export default function WhyChooseUs() {
   return (
-    <section id="about" className="bg-[#151c22] px-6 py-24 text-white">
+    <section id="about" className="bg-[#151c22] px-6 py-28 text-white">
       <div className="mx-auto max-w-7xl">
-        <p className="mb-3 text-sm font-bold uppercase tracking-[0.3em] text-red-500">
-          Why Choose Ralfi&apos;s
-        </p>
+        <div className="mb-16 max-w-4xl">
+          <p className="text-sm font-bold uppercase tracking-[0.35em] text-red-500">
+            About Ralfi&apos;s
+          </p>
 
-        <h2 className="max-w-3xl text-4xl font-black md:text-6xl">
-          Built on trust, detail, and quality work.
-        </h2>
+          <h2 className="mt-4 text-4xl font-black md:text-6xl">
+            Built on honest work, clean finishes, and attention to detail.
+          </h2>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <p className="mt-6 text-lg leading-8 text-gray-300">
+            Ralfi&apos;s General Contracting is a Long Island based home
+            improvement company specializing in bathroom remodeling, basement
+            waterproofing, interior renovations, landscaping, tree removal, and
+            general property improvements.
+          </p>
+
+          <p className="mt-5 text-lg leading-8 text-gray-300">
+            From the first conversation to the final cleanup, every project is
+            handled with care, respect for the home, and a focus on quality work
+            that lasts.
+          </p>
+        </div>
+
+        <div className="grid gap-5 md:grid-cols-4">
           {reasons.map((reason) => {
             const Icon = reason.icon;
 
             return (
               <div
                 key={reason.title}
-                className="rounded-2xl border border-white/10 bg-black/20 p-7"
+                className="rounded-2xl border border-white/10 bg-black/20 p-6 transition hover:-translate-y-1 hover:border-red-500/50 hover:bg-black/30"
               >
-                <Icon className="mb-5 h-9 w-9 text-red-500" />
-                <h3 className="mb-3 text-xl font-bold">{reason.title}</h3>
-                <p className="leading-7 text-gray-300">{reason.text}</p>
+                <Icon className="mb-5 h-8 w-8 text-red-500" />
+
+                <h3 className="mb-3 text-lg font-bold">{reason.title}</h3>
+
+                <p className="text-sm leading-6 text-gray-300">
+                  {reason.text}
+                </p>
               </div>
             );
           })}
