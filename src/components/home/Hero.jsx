@@ -52,7 +52,7 @@ export default function Hero() {
             </div>
 
             <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
-              <p className="text-2xl font-black text-white">Long Island</p>
+              <p className="text-2xl font-black text-white">New York</p>
               <p className="mt-1 text-sm text-gray-300">Local Service</p>
             </div>
 

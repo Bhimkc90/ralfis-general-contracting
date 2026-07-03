@@ -14,6 +14,7 @@ export const projectCategories = [
       "/projects/bathrooms/bathroom-03.jpg",
       "/projects/bathrooms/bathroom-04.jpg",
       "/projects/bathrooms/bathroom-05.jpg",
+      "/projects/bathrooms/bathroom-06.jpg",
     ],
   },
   {
@@ -33,7 +34,6 @@ export const projectCategories = [
       "/projects/renovations/03-new-sump-pump-installation.jpg",
       "/projects/renovations/04-interior-drain-system-completed.jpg",
       "/projects/renovations/05-finished-hallway.jpg",
-      "/projects/renovations/06-finished-bathroom.jpg",
       "/projects/renovations/07-finished-living-area.jpg",
     ],
   },
@@ -54,6 +54,9 @@ export const projectCategories = [
       "/projects/landscaping/landscaping-04.jpg",
       "/projects/landscaping/landscaping-05.jpg",
       "/projects/landscaping/landscaping-06.jpg",
+      "/projects/landscaping/landscaping-07.jpg",
+      "/projects/landscaping/landscaping-08.jpg",
+      "/projects/landscaping/landscaping-09.jpg",
     ],
   },
   {
@@ -73,6 +76,8 @@ export const projectCategories = [
       "/projects/tree-removal/tree-04.jpg",
       "/projects/tree-removal/tree-05.jpg",
       "/projects/tree-removal/tree-06.jpg",
+      "/projects/tree-removal/tree-07.jpg",
+      "/projects/tree-removal/tree-08.jpg",
     ],
   },
 ];
