@@ -18,9 +18,9 @@ const reasons = [
   },
   {
     icon: MapPin,
-    title: "Local Service",
-    text: "Serving homeowners across Long Island and nearby communities.",
-  },
+    title: "Serving New York",
+    text: "Proudly serving homeowners throughout New York with quality craftsmanship."
+  }
 ];
 
 export default function WhyChooseUs() {
