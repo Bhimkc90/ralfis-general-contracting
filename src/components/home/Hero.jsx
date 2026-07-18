@@ -20,7 +20,7 @@ export default function Hero() {
           </p>
 
           <h1 className="max-w-4xl text-5xl font-black leading-[1.05] text-white md:text-6xl lg:text-7xl">
-            Transforming Homes Across Long Island.
+            Transforming Homes Across New York.
           </h1>
 
           <p className="mt-8 max-w-2xl text-xl leading-9 text-gray-200">
