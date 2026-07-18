@@ -42,7 +42,7 @@ export default function Contact() {
 
               <p className="flex items-center gap-4 text-lg text-gray-200">
                 <MapPin className="h-6 w-6 text-red-500" />
-                Long Island, New York
+               Serving Across New York
               </p>
             </div>
 

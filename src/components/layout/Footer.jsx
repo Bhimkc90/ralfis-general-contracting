@@ -28,7 +28,7 @@ export default function Footer() {
           <p className="mt-6 leading-8 text-gray-400">
             Building beautiful homes through quality craftsmanship,
             honest communication, and dependable service for homeowners
-            throughout Long Island.
+            throughout New York.
           </p>
         </div>
 
@@ -64,7 +64,7 @@ export default function Footer() {
             <p>✓ Quality Craftsmanship</p>
             <p>✓ Honest Communication</p>
             <p>✓ Reliable Service</p>
-            <p>✓ Serving Long Island</p>
+            <p>✓ Serving New York</p>
           </div>
         </div>
       </div>
