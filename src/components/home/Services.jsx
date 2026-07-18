@@ -23,7 +23,7 @@ const services = [
     icon: Hammer,
     title: "General Contracting",
     description:
-      "Reliable repairs, property improvements, and project support for homes across Long Island.",
+      "Reliable repairs, property improvements, and project support for homes across New York.",
   },
 ];
 
