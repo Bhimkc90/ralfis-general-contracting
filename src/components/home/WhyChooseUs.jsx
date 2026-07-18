@@ -37,7 +37,7 @@ export default function WhyChooseUs() {
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Ralfi&apos;s General Contracting is a Long Island based home
+            Ralfi&apos;s General Contracting is a New York based home
             improvement company specializing in bathroom remodeling, basement
             waterproofing, interior renovations, landscaping, tree removal, and
             general property improvements.
