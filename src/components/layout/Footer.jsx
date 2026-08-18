@@ -75,7 +75,15 @@ export default function Footer() {
         </p>
 
         <p className="mt-2">
-          Website designed & developed by <span className="text-white">Bhim KC</span>.
+          Website designed & developed by{" "}
+          <a
+            href="https://www.bhimbkc.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white"
+          >
+            Bhim KC
+          </a>.
         </p>
       </div>
     </footer>
