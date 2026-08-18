@@ -138,9 +138,7 @@ export default function Contact() {
               Submit Message
             </button>
 
-            <p className="mt-4 text-center text-sm text-gray-400">
-              Form connection will be added before final launch.
-            </p>
+          
           </form>
         </div>
       </div>
